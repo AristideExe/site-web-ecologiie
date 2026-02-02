@@ -5,6 +5,7 @@ import Trees from "../../assets/images/Trees.jpg";
 import {Link} from "react-router";
 import GreenButton from "../GreenButton/GreenButton.jsx";
 import Projects from "../Projects/Projects.jsx";
+import {HashLink} from "react-router-hash-link";
 
 const Home = () => (
     <>
@@ -16,11 +17,11 @@ const Home = () => (
                     <p>sit consectetur sollicitudin laoreet sit eu sit lacinia scelerisque. vel et Lorem malesuada ultricies Nullam lacinia vel sit quis nibh amet, vel vel adipiscing risus. nibh consectetur Maecenas tristique. tristique. tristique. mauris ante Nulla vel sit consectetur sollicitudin laoreet sit eu sit lacinia scelerisque. vel et Lorem malesuada ultricies Nullam lacinia vel sit quis nibh amet, vel vel adipiscing risus. nibh consectetur.</p>
                     <p>Mauris ante Nulla vel sit consectetur sollicitudin laoreet sit eu sit lacinia scelerisque. vel et Lorem malesuada ultricies Nullam lacinia vel sit quis nibh amet, vel vel adipiscing risus. nibh consectetur Maecenas tristique. tristique. tristique. mauris ante Nulla vel sit consectetur sollicitudin laoreet sit eu sit lacinia scelerisque. vel et Lorem malesuada ultricies Nullam lacinia vel sit quis nibh amet, vel vel adipiscing risus. nibh consectetur Maecenas tristique. tristique. tristique. mauris ante Nulla vel </p>
                     <div className="flex justify-center md:justify-end md:pt-8">
-                        <a href="#nos-actions">
+                        <HashLink to="#nos-actions">
                             <GreenButton>
                                 <span className="uppercase">Découvrir nos actions</span>
                             </GreenButton>
-                        </a>
+                        </HashLink>
                     </div>
                 </div>
                 <img src={LogoEcologIIE} alt="Logo EcologIIE" className="flex-1/2 p-24 z-10 hidden md:block object-contain"/>
