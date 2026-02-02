@@ -8,9 +8,24 @@ const Header = () => (
             <img src={LogoEcologIIE} alt="Logo EcologIIE"/>
         </Link>
         <div className="flex gap-8 uppercase font-bold items-baseline">
-            <p>Qui sommes-nous</p>
-            <p>Nos actions</p>
-            <p>Prendre contact</p>
+            <Link
+                to={{}}
+                className="relative pb-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-black after:transition-all after:duration-300 hover:after:w-full"
+            >
+                Qui sommes-nous
+            </Link>
+            <Link
+                to={{}}
+                className="relative pb-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-black after:transition-all after:duration-300 hover:after:w-full"
+            >
+                Nos actions
+            </Link>
+            <Link
+                to={{}}
+                className="relative pb-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-black after:transition-all after:duration-300 hover:after:w-full"
+            >
+                Prendre contact
+            </Link>
         </div>
     </header>
 );
