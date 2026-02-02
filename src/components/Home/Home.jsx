@@ -3,6 +3,7 @@ import ensIIEImage from "../../assets/images/ensIIE.jpg";
 import LogoEcologIIE from "../../assets/images/LogoEcologIIE.png";
 import {Link} from "react-router";
 import GreenButton from "../GreenButton/GreenButton.jsx";
+import Projects from "../Projects/Projects.jsx";
 
 const Home = () => (
     <>
@@ -24,6 +25,9 @@ const Home = () => (
                 <img src={LogoEcologIIE} alt="Logo EcologIIE" className="flex-1/2 p-24 z-10 hidden md:block"/>
             </div>
         </div>
+
+        <Projects />
+
         <Contact />
     </>
 );

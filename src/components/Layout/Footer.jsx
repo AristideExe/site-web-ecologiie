@@ -11,7 +11,7 @@ const Footer = () => {
                 <p>1 place de la Résistance, 91000 Évry-Courcouronnes</p>
             </div>
             <div className="mx-auto py-2">
-                <p>© {year} ÉcologIIE. Tous droits réservés. Développé par Aristide 'Aristide' Proriol</p>
+                <p>© {year} ÉcologIIE. Tous droits réservés. Développé par Aristide 'Aristide' Proriol 🌱</p>
             </div>
         </div>
     </footer>
