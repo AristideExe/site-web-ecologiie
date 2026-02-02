@@ -7,3 +7,14 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+@font-face {
+    font-family: 'Bricolage Grotesque';
+    src: url('./assets/fonts/Bricolage-Grotesque.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@theme {
+    --font-bricolage-grotesque: "Bricolage Grotesque", sans-serif;
+}
