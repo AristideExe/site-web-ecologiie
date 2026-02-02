@@ -1,9 +1,9 @@
 import {Outlet, useLocation} from "react-router";
 import Header from "./Header.jsx";
+import Footer from "./Footer.jsx";
 
 const Layout = () => {
-    const location = useLocation();
-    const year = new Date().getFullYear();
+    // const location = useLocation();
 
     return (
         <div className="min-h-screen flex flex-col">
@@ -11,9 +11,7 @@ const Layout = () => {
             <div className="flex-1 flex flex-col">
                 <Outlet />
             </div>
-            <footer>
-                FOOTER
-            </footer>
+            <Footer />
         </div>
     )
 };
