@@ -16,11 +16,11 @@ const Home = () => (
                     <p>sit consectetur sollicitudin laoreet sit eu sit lacinia scelerisque. vel et Lorem malesuada ultricies Nullam lacinia vel sit quis nibh amet, vel vel adipiscing risus. nibh consectetur Maecenas tristique. tristique. tristique. mauris ante Nulla vel sit consectetur sollicitudin laoreet sit eu sit lacinia scelerisque. vel et Lorem malesuada ultricies Nullam lacinia vel sit quis nibh amet, vel vel adipiscing risus. nibh consectetur.</p>
                     <p>Mauris ante Nulla vel sit consectetur sollicitudin laoreet sit eu sit lacinia scelerisque. vel et Lorem malesuada ultricies Nullam lacinia vel sit quis nibh amet, vel vel adipiscing risus. nibh consectetur Maecenas tristique. tristique. tristique. mauris ante Nulla vel sit consectetur sollicitudin laoreet sit eu sit lacinia scelerisque. vel et Lorem malesuada ultricies Nullam lacinia vel sit quis nibh amet, vel vel adipiscing risus. nibh consectetur Maecenas tristique. tristique. tristique. mauris ante Nulla vel </p>
                     <div className="flex justify-center md:justify-end md:pt-8">
-                        <Link to={{}}>
+                        <a href="#nos-actions">
                             <GreenButton>
                                 <span className="uppercase">Découvrir nos actions</span>
                             </GreenButton>
-                        </Link>
+                        </a>
                     </div>
                 </div>
                 <img src={LogoEcologIIE} alt="Logo EcologIIE" className="flex-1/2 p-24 z-10 hidden md:block"/>
