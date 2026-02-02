@@ -7,7 +7,7 @@ const Header = () => (
         <Link to={homePath}  className="w-50">
             <img src={LogoEcologIIE} alt="Logo EcologIIE"/>
         </Link>
-        <div className="flex gap-8 uppercase font-extrabold items-baseline flex-col md:flex-row">
+        <div className="gap-8 uppercase font-extrabold items-baseline flex-col md:flex-row hidden md:flex">
             <a
                 href="#qui-sommes-nous"
                 className="relative pb-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-green-600 after:transition-all after:duration-300 hover:after:w-full hover:text-green-600"
