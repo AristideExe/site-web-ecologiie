@@ -7,11 +7,11 @@ const Footer = () => {
 
     return (
     <footer className="w-full bg-black/90 text-white py-5">
-        <div className="w-1/2 mx-auto flex flex-col align-middle">
-            <div className="flex justify-around border-b border-white/80 py-2">
-                <Link to="mailto:ecologiie@iiens.net" target="_blank" className="flex gap-2">
+        <div className="px-5 md:w-1/2 mx-auto flex flex-col align-middle">
+            <div className="flex flex-col md:flex-row justify-around border-b border-white/80 py-2">
+                <Link to="mailto:ecologiie@iiens.net" target="_blank" className="flex gap-2 hover:text-green-600 transition-all">
                     <MailIcon />
-                    ecologiie@iiens.net
+                    <span className="underline">ecologiie@iiens.net</span>
                 </Link>
                 <div className="flex gap-2">
                     <LocationIcon />
