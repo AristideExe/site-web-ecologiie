@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     /*background-image: url('./assets/images/BackgroundImage.jpg');*/
     /*!*background-attachment: fixed;*!*/

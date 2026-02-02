@@ -8,7 +8,7 @@ import Projects from "../Projects/Projects.jsx";
 
 const Home = () => (
     <>
-        <div className="relative bg-cover bg-center p-4 md:p-24" style={{ backgroundImage: `url(${ensIIEImage})` }}>
+        <div id="qui-sommes-nous" className="relative bg-cover bg-center p-4 md:p-24" style={{ backgroundImage: `url(${ensIIEImage})` }}>
             <div className="absolute inset-0 bg-black/40"></div>
             <div className="flex">
                 <div className="z-10 bg-white/90  p-10 flex-1/2 flex flex-col gap-4">
@@ -27,16 +27,16 @@ const Home = () => (
             </div>
         </div>
 
-        <Projects />
+        <Projects id="nos-actions"/>
 
         <div className="relative bg-fixed bg-cover bg-center h-96" style={{ backgroundImage: `url(${Trees})` }}>
             <div className="absolute inset-0 bg-black/40"></div>
             <div className="relative z-10 text-white text-center flex flex-col items-center justify-center h-full text-4xl md:px-44 font-extrabold">
-                <p className="drop-shadow-2xl">Notre objectif : sensibiliser et mettre en place des actions concrètes pour rendre plus responsables les ingénieurs de demain</p>
+                <p className="text-shadow-lg/80">Notre objectif : sensibiliser et mettre en place des actions concrètes pour rendre plus responsables les ingénieurs de demain</p>
             </div>
         </div>
 
-        <Contact />
+        <Contact id="prendre-contact"/>
     </>
 );
 

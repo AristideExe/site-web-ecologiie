@@ -5,7 +5,7 @@ import BackgroundImage from "../../assets/images/BackgroundImage.jpg";
 import Vegetables from "../../assets/images/projects/Vegetables.jpg";
 
 const Projects = () => (
-    <div style={{ backgroundImage: `url(${BackgroundImage})` }} className="relative bg-cover bg-center py-14 md:pt-36 md:pb-40">
+    <div id="nos-actions" style={{ backgroundImage: `url(${BackgroundImage})` }} className="relative bg-cover bg-center py-14 md:pt-36 md:pb-40">
         <div className="md:px-0 md:w-1/2 mx-auto">
             <h1 className="uppercase font-extrabold text-3xl border-b border-black py-4">Nos actions</h1>
             <div className="pt-8">

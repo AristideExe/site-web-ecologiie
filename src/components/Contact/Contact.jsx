@@ -3,7 +3,7 @@ import {Link} from "react-router";
 import BackgroundImage from "../../assets/images/BackgroundImage.jpg";
 
 const Contact = () => (
-    <div style={{ backgroundImage: `url(${BackgroundImage})` }} className="relative bg-cover bg-center py-14 md:py-32">
+    <div id="prendre-contact" style={{ backgroundImage: `url(${BackgroundImage})` }} className="relative bg-cover bg-center py-14 md:py-32">
         <div className="px-4 md:px-0 md:w-1/2 mx-auto">
             <h1 className="uppercase font-extrabold text-3xl border-b border-black py-4">Prendre contact</h1>
             <div className="flex py-8 gap-8 align-middle flex-col md:flex-row">
