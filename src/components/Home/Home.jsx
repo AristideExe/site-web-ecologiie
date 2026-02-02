@@ -23,7 +23,7 @@ const Home = () => (
                         </a>
                     </div>
                 </div>
-                <img src={LogoEcologIIE} alt="Logo EcologIIE" className="flex-1/2 p-24 z-10 hidden md:block"/>
+                <img src={LogoEcologIIE} alt="Logo EcologIIE" className="flex-1/2 p-24 z-10 hidden md:block object-contain"/>
             </div>
         </div>
 
