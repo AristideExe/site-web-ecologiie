@@ -9,7 +9,7 @@ const ProjectsCarrousel = ({ projects }) => {
     useEffect(() => {
         const interval = setInterval(() => {
             handleNext();
-        }, 300000); // 5 minutes
+        }, 7000);
 
         return () => clearInterval(interval);
     }, [currentIndex]);
