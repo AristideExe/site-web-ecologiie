@@ -1,5 +1,4 @@
 import ProjectsCarrousel from "./ProjectsCarrousel.jsx";
-import Project from "./Project.jsx";
 import ensIIEImage from "../../assets/images/ensIIE.jpg";
 import BackgroundImage from "../../assets/images/BackgroundImage.jpg";
 import Vegetables from "../../assets/images/projects/Vegetables.jpg";
@@ -11,9 +10,11 @@ import Rating from "../../assets/images/projects/Rating.jpg";
 import LogoReses from "../../assets/images/projects/LogoReses.png";
 
 const Projects = () => (
-    <div id="nos-actions" style={{ backgroundImage: `url(${BackgroundImage})` }} className="relative bg-cover bg-center py-14 md:pt-36 md:pb-40">
-        <div className="md:px-0 md:w-1/2 mx-auto">
-            <h1 className="uppercase font-extrabold text-3xl border-b border-black py-4">Nos actions</h1>
+    <div id="nos-actions" style={{ backgroundImage: `url(${BackgroundImage})` }} className="bg-cover bg-center py-14 md:pt-36 md:pb-40">
+        <div className="md:w-1/2 mx-auto">
+            <div className="px-4 md:px-0">
+                <h1 className="uppercase font-extrabold text-3xl border-b border-black">Nos actions</h1>
+            </div>
             <div className="pt-8">
                 <ProjectsCarrousel projects={[
                     { title: "Rentrée du climat", description: "Formation de membres pour réaliser la fresque du climat, organisation des ateliers, réalisation de devis pour l'atelier 2Tonnes.", backgroundImage: Course },

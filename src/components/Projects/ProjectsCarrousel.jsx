@@ -45,21 +45,21 @@ const ProjectsCarrousel = ({ projects }) => {
             {/* Navigation buttons */}
             <button
                 onClick={handlePrev}
-                className="absolute left-4 top-1/2 -translate-y-1/2 bg-green-600/50 hover:bg-green-600 text-white text-4xl rounded-full transition-all z-20 cursor-pointer h-14 w-14"
+                className="absolute left-4 bottom-1 md:top-1/2 md:-translate-y-1/2 bg-green-600/50 hover:bg-green-600 text-white text-4xl rounded-full transition-all z-20 cursor-pointer h-14 w-14"
                 aria-label="Projet précédent"
             >
                 &#8249;
             </button>
             <button
                 onClick={handleNext}
-                className="absolute right-4 top-1/2 -translate-y-1/2 bg-green-600/50 hover:bg-green-600 text-white text-4xl rounded-full transition-all z-20 cursor-pointer h-14 w-14"
+                className="absolute right-4 bottom-1 md:top-1/2 md:-translate-y-1/2 bg-green-600/50 hover:bg-green-600 text-white text-4xl rounded-full transition-all z-20 cursor-pointer h-14 w-14"
                 aria-label="Projet suivant"
             >
                 &#8250;
             </button>
 
             {/* Dots indicator */}
-            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 z-20">
+            <div className="absolute bottom-7 left-1/2 -translate-x-1/2 flex gap-2 z-20">
                 {projects.map((_, index) => (
                     <button
                         key={index}
